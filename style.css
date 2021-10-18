@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+     background: #222; 
+    background-image: url('https://source.unsplash.com/1600x900/?landscape'); 
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    position: absolute;
+    top: 12rem;
+    left: 36rem;
+    display: block;
+    text-align-last: center;
+    border-radius: 52px;
+    font-size: x-large;
+    padding: 7px;
+    width: 20rem;
+    background: #000000d0; 
+    color: white;
+    font-family: serif;
+    
+}
+.search-box{
+    border: none;   
+    width: 16rem;
+    height: 2rem;
+    border-radius: 37px;
+    background: #7c7c7c2b;
+    font-size: medium;
+    text-align: -webkit-center;
+    margin: 6px;
+    color: white;
+}
+
+.location .city{
+    margin: 22px;
+}
+.location .date{
+    margin: 22px;
+}   
+.temp{
+    margin: 22px;
+    font-family: -webkit-body;
+    font-size: xxx-large;
+    color: brown;
+}
+.weatherdesc{
+    margin: 22px;
+}   
+
+.hi-low{
+    margin: 22px;
+}
+
+
+
+
+@media only screen and (max-width: 515px) {
+    .container{
+        top: 12rem;
+    left: 5rem;
+
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    
+  }
