@@ -48,5 +48,4 @@ const api = {
   
     return `${day} ${date} ${month} ${year}`;
   }
-           // const api = `api.openweathermap.org/data/2.5/weather?q={city name}&appid=cd897addd97b0df6a98c69190c35a5ef`;
             
